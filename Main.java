@@ -19,8 +19,15 @@ public class Main {
 
         // ploymorphism
         Stationery stan2 = new Pencil("black", 15, "whiteman", "pencil");
+        System.out.println(stan2.getColor());
         System.out.println(stan2.introduction());
         stan2.functions();
+
+        Pencil[] pencils = new Pencil[20];
+        for (int i = 0; i < pencils.length; i++) {
+            pencils[i] = new Pencil("black", 15, "whiteman", "pencil " + i);
+            System.out.println(pencils[i].toString());
+        }
 
     }
 }
