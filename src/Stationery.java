@@ -1,3 +1,5 @@
+package src;
+
 class Stationery extends DeskItems {
     private String color;
     private int size;

@@ -1,3 +1,4 @@
+package src;
 
 //inheritance
 class Pencil extends Stationery {
