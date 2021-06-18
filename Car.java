@@ -10,6 +10,11 @@ public class Car {
     public Car() {
     }
 
+    public Car(String s1, String color) {
+        this.modelName = s1;
+        this.color = color;
+    }
+
     public Car(int modelYear, String modelName, String color, int wheel, int seat) {
         this.modelYear = modelYear;
         this.modelName = modelName;
